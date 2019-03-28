@@ -1,2 +1,2 @@
 This is testing Progress..
-This project will start soon
+This project will start soon..
