@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXColorPicker?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="42.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="color.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="cc" prefHeight="60.0" prefWidth="56.0">
+         <children>
+            <JFXButton fx:id="hhhh" layoutX="5.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#hashUp" prefHeight="40.0" prefWidth="46.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/impo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="280.0" prefHeight="60.0" prefWidth="288.0" style="-fx-background-color: #2A363B;">
+         <children>
+            <JFXColorPicker fx:id="cha" layoutX="32.0" layoutY="15.0" onAction="#changeColor" />
+            <JFXButton fx:id="exi11" layoutX="237.0" layoutY="15.0" onAction="#closeAll" prefHeight="31.0" prefWidth="32.0" style="-fx-background-color: #D32F2F;" text="X" />
+            <JFXButton fx:id="exi1" layoutX="195.0" layoutY="15.0" onAction="#closeAll" prefHeight="31.0" prefWidth="32.0" style="-fx-background-color: #00695C;" text="M">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="exi" layoutX="154.0" layoutY="15.0" onAction="#closeAll" prefHeight="31.0" prefWidth="32.0" style="-fx-background-color: #B0Bec5;" text="T" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="c1" layoutX="224.0" prefHeight="60.0" prefWidth="56.0">
+         <children>
+            <JFXCheckBox fx:id="cont1" layoutX="20.0" layoutY="20.0" selected="true" text=" " />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="c2" layoutX="168.0" prefHeight="60.0" prefWidth="56.0">
+         <children>
+            <JFXCheckBox fx:id="cont2" layoutX="20.0" layoutY="20.0" selected="true" text=" " />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="c3" layoutX="112.0" prefHeight="60.0" prefWidth="56.0">
+         <children>
+            <JFXCheckBox fx:id="cont3" layoutX="20.0" layoutY="20.0" selected="true" text=" " />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="c4" layoutX="56.0" prefHeight="60.0" prefWidth="56.0">
+         <children>
+            <JFXCheckBox fx:id="cont4" layoutX="20.0" layoutY="20.0" selected="true" text=" " />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
